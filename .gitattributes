@@ -34,12 +34,13 @@ sources text eol=crlf
 *.sym binary
 
 # Documentation
-*.txt           text
+*.txt           text eol=crlf
 *.md            text
 License         text
 *.html          text diff=html
 *.htm           text diff=html
 *.html          text diff=html
+*.xls           binary
 
 # Executables
 *.exe   binary
